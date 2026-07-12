@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Алекс Волков — AI Content Creator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">AV<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#work">Проекты</a>
+      <a href="#stack">Стек</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contact" class="nav-cta">Написать</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="pulse"></span> Открыт для проектов</p>
+      <h1>
+        Алекс Волков —<br>
+        <span class="typed-wrap">я создаю <span id="typed" class="typed"></span><span class="cursor">|</span></span>
+      </h1>
+      <p class="hero-sub">AI-креатор изображений и видео. Превращаю текстовый промпт в кадр, ролик или целую визуальную вселенную — быстро, стильно, без границ обычной съёмки.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">Смотреть работы</a>
+        <a href="#contact" class="btn btn-ghost">Связаться</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EJokb3DgQn9HlUmaimHKyrQYbr/hf_20260712_125612_d7ca91fe-f0cb-485f-b954-bbec995eaa88.png" alt="" class="hero-img">
+    </div>
+  </section>
+
+  <section class="terminal-strip">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+        <span class="tfile">whoami.sh</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="prompt">$</span> cat tools.json</p>
+        <p class="out">{ "image": "Midjourney / Nano Banana Pro", "video": "Kling / Runway", "voice": "ElevenLabs", "loves": "точные промпты и чистый монтаж" }</p>
+        <p><span class="prompt">$</span> stats --content-generated</p>
+        <p class="out">500+ изображений, 80+ видео, 0 отснятой натуры ✓</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="stack">
+    <h2 class="section-title">Инструменты в деле</h2>
+    <div class="stack-grid">
+      <div class="stack-item"><span class="stack-icon">⬡</span>Midjourney</div>
+      <div class="stack-item"><span class="stack-icon">◆</span>Nano Banana Pro</div>
+      <div class="stack-item"><span class="stack-icon">⬢</span>Kling / Runway</div>
+      <div class="stack-item"><span class="stack-icon">◈</span>ElevenLabs</div>
+      <div class="stack-item"><span class="stack-icon">▲</span>ComfyUI</div>
+      <div class="stack-item"><span class="stack-icon">◉</span>DaVinci Resolve</div>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <h2 class="section-title">Избранные проекты</h2>
+    <div class="work-grid">
+
+      <article class="project project-featured">
+        <div class="project-glow"></div>
+        <div class="project-content">
+          <span class="project-tag">Featured</span>
+          <h3>Nocturne — рекламная кампания для парфюмерного бренда</h3>
+          <p>Полностью AI-сгенерированный видеоролик и серия визуалов: от концепт-артов до финального монтажа. Ни одного кадра реальной съёмки.</p>
+          <div class="project-tech">
+            <span>Kling</span><span>Midjourney</span><span>ElevenLabs</span><span>Runway</span>
+          </div>
+          <a href="#" class="project-link">Смотреть кейс →</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>Дримскейпы</h3>
+        <p>Серия сюрреалистичных пейзажей для арт-выставки — 40 изображений, каждое с уникальной композицией и светом.</p>
+        <div class="project-tech">
+          <span>Midjourney</span><span>Nano Banana Pro</span>
+        </div>
+        <a href="#" class="project-link">Подробнее →</a>
+      </article>
+
+      <article class="project">
+        <h3>Виртуальный амбассадор</h3>
+        <p>AI-аватар для соцсетей бренда: консистентный персонаж в фото и видео для 30+ постов в месяц.</p>
+        <div class="project-tech">
+          <span>Soul V2</span><span>Kling</span>
+        </div>
+        <a href="#" class="project-link">Подробнее →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title">Обо мне</h2>
+        <p>Начинал с фотографии, но обнаружил, что промпт может дать то, что не снимет ни одна камера. Сейчас выстраиваю полный пайплайн AI-контента: от идеи и референсов до готового видео с озвучкой и монтажом.</p>
+        <p>Работаю с брендами, у которых нет бюджета на съёмочную команду, но есть амбиция выглядеть как топовая студия.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">года в AI-генерации</span></div>
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">сгенерированных изображений</span></div>
+        <div class="stat"><span class="stat-num">80+</span><span class="stat-label">видеороликов</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Есть задача?</h2>
+    <p class="contact-sub">Расскажите, что нужно построить — отвечу в течение дня.</p>
+    <a href="mailto:alex@example.com" class="btn btn-primary btn-large">alex@example.com</a>
+    <div class="socials">
+      <a href="#">Instagram</a>
+      <a href="#">Telegram</a>
+      <a href="#">Behance</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Алекс Волков. Собрано с кофе и TypeScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
