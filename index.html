@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artur Gawryluk — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style-dev-en.css">
+</head>
+<body>
+
+<div class="noise"></div>
+<div class="glow glow-1"></div>
+<div class="glow glow-2"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo">AG<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="pulse"></span> Open to projects</p>
+      <h1>
+        Artur Gawryluk —<br>
+        <span class="typed-wrap">I build <span id="typed" class="typed"></span><span class="cursor">|</span></span>
+      </h1>
+      <p class="hero-sub">Full-stack developer. I turn complex problems into fast, reliable, and pleasant-to-use products — from idea to production.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3EJokb3DgQn9HlUmaimHKyrQYbr/hf_20260712_125309_95400b3b-2d7f-47ce-9c99-2130b39ae297.png" alt="" class="hero-img">
+    </div>
+  </section>
+
+  <section class="terminal-strip">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="tdot r"></span><span class="tdot y"></span><span class="tdot g"></span>
+        <span class="tfile">whoami.sh</span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="prompt">$</span> cat skills.json</p>
+        <p class="out">{ "frontend": "React / Next.js", "backend": "Node / Go", "cloud": "AWS / Docker", "loves": "clean code and fast UX" }</p>
+        <p><span class="prompt">$</span> uptime --in-industry</p>
+        <p class="out">6 years, 40+ shipped releases, 0 regrets ✓</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="stack">
+    <h2 class="section-title">Tools of the trade</h2>
+    <div class="stack-grid">
+      <div class="stack-item"><span class="stack-icon">⬡</span>React / Next.js</div>
+      <div class="stack-item"><span class="stack-icon">◆</span>TypeScript</div>
+      <div class="stack-item"><span class="stack-icon">⬢</span>Node.js</div>
+      <div class="stack-item"><span class="stack-icon">◈</span>Go</div>
+      <div class="stack-item"><span class="stack-icon">▲</span>PostgreSQL</div>
+      <div class="stack-item"><span class="stack-icon">◉</span>Docker / AWS</div>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <h2 class="section-title">Selected Projects</h2>
+    <div class="work-grid">
+
+      <article class="project project-featured">
+        <div class="project-glow"></div>
+        <div class="project-content">
+          <span class="project-tag">Featured</span>
+          <h3>Pulse — real-time analytics platform</h3>
+          <p>A dashboard for streaming metrics processing 2M+ events per minute. WebSocket + ClickHouse under the hood.</p>
+          <div class="project-tech">
+            <span>React</span><span>Go</span><span>ClickHouse</span><span>WebSocket</span>
+          </div>
+          <a href="#" class="project-link">View case study →</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <h3>Nimbus CLI</h3>
+        <p>A command-line tool for one-click serverless function deployment. 4k+ stars on GitHub.</p>
+        <div class="project-tech">
+          <span>Node.js</span><span>AWS Lambda</span>
+        </div>
+        <a href="#" class="project-link">Learn more →</a>
+      </article>
+
+      <article class="project">
+        <h3>Formly</h3>
+        <p>A no-code form builder with branching logic and integrations. 12k active users.</p>
+        <div class="project-tech">
+          <span>Next.js</span><span>PostgreSQL</span>
+        </div>
+        <a href="#" class="project-link">Learn more →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title">About Me</h2>
+        <p>Started out building landing pages for pizza money, now I design systems that handle real load and don't go down on a Friday night. I like breaking complexity into simple pieces and explaining decisions so the whole product team gets it — not just the engineers.</p>
+        <p>When I'm not coding, I'm snowboarding or learning Japanese (currently at "order ramen" level).</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">years in development</span></div>
+        <div class="stat"><span class="stat-num">40+</span><span class="stat-label">shipped releases</span></div>
+        <div class="stat"><span class="stat-num">12</span><span class="stat-label">major projects</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Got a project?</h2>
+    <p class="contact-sub">Tell me what needs building — I'll reply within a day.</p>
+    <a href="mailto:artur@example.com" class="btn btn-primary btn-large">artur@example.com</a>
+    <div class="socials">
+      <a href="#">GitHub</a>
+      <a href="#">Telegram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Artur Gawryluk. Built with coffee and TypeScript.</p>
+</footer>
+
+<script src="script-dev-en.js"></script>
+</body>
+</html>
